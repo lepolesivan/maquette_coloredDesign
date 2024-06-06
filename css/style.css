@@ -29,7 +29,7 @@ footer{
     color: #DDEEAA
 }
 .block{
-    float: left;
+    justify-content: flex-start;
 }
 .petite{
     justify-content: flex-start;
@@ -39,4 +39,20 @@ footer{
 hr{
     margin: 0 auto;
     color: #DDEEAA;
+}
+section{
+    display: flex;
+    flex-flow: nowrap row;
+}
+p{
+    text-indent: 5em;
+}
+h2{
+    margin: 0 auto;
+}
+.pomme{
+    justify-content: center;
+}
+h2{
+    padding: 0 auto;
 }
